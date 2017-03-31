@@ -1,0 +1,10 @@
+# Set your username and password here:
+# http://tools.dynamicdrive.com/password/
+
+AuthName "Restricted Area"
+AuthType Basic
+AuthUserFile /home/public_html/admin/.htpasswd
+AuthGroupFile /dev/null
+require valid-user
+
+# User/pass for .htpasswd is admin/admin
